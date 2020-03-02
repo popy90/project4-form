@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{background-image: url(../images/mountain.jpg);background-size: 100%;background-repeat: no-repeat;}
+
+/*****************************************
+header section
+******************************************/
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #47464a;
+}
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+nav ul li a img{
+    width: 94px;
+}
+/*****************************************
+header section
+******************************************/
+
+
+/*****************************************
+form section
+******************************************/
+section{}
+.formsection{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* background-image: url(../images/mountain.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+}
+.article{
+    flex-basis: 40%;
+    max-width: 40%;
+    padding-left: 105px;
+}
+.form-box{
+    width: 500px;
+    max-width: 500px;
+    height: 461px;
+    margin: auto;
+    text-align: center;
+    background-color: #6f7077;
+    /* flex-basis: 41%; */
+}
+.article h1{
+    padding: 10px 48px;
+    font-size: 25px;
+}
+h1{
+    font-size: 26px;
+    padding: 10px;
+    color: wheat;
+}
+.and{
+	color: #4d4f5a;
+}
+p{
+    font-size: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: wheat;
+}
+form{
+    text-align: center;
+    margin-top: 28px;
+    width: 100%;
+    /* padding-left: 50px; */
+    /* align-items: center; */
+ }
+ .article input{
+}
+ input[type="text"],[type="number"],[type="email"],[type="password"]{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: .5px solid #697168;
+    color: #0d2127;
+    font-size: 16px;
+}
+input[type="submit"]{
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 12px;
+	border: .5px solid #444644;
+	color: wheat;
+	font-size: 16px;
+	background-color: #49524d;
+}
+input[type="submit"]:hover{
+	background:transparent;
+
+}
+input:focus{
+	outline: none;
+}
+::placeholder{
+	color: gray;
+}
+.article input[type="submit"]{
+	background-color: #6f7077;
+	padding: 7px 25px;
+	width: 30%;
+	border-radius: 45px;
+}
+.article input[type="submit"]:hover{
+	background:transparent;
+/*****************************************
+form section
+******************************************/
